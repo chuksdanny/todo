@@ -5,10 +5,10 @@ let msg = document.querySelector('.msg')
 
 function loginuser(){
     // email user enter
-    let emailE = email.Value
+    let emailE = email.value
     let passE = password.value
     //  get register user info from localstorage
-    alert ('dddd')
+
 
     let emailLS = localStorage.getItem('email')
     let passLS = localStorage.getItem('password')
